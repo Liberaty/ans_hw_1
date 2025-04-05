@@ -3,12 +3,25 @@
 ## Подготовка к выполнению
 
 1. Установите Ansible версии 2.10 или выше.
+***Ответ:*** ![ansible.png](https://github.com/Liberaty/ans_hw_1/blob/main/img/ansible.png?raw=true)
 2. Создайте свой публичный репозиторий на GitHub с произвольным именем.
+***Ответ:***
+https://github.com/Liberaty/ans_hw_1
+
 3. Скачайте [Playbook](./playbook/) из репозитория с домашним заданием и перенесите его в свой репозиторий.
+
+***Ответ:*** ![tree.png](https://github.com/Liberaty/ans_hw_1/blob/main/img/tree.png)
+
+4. Установите Docker
+
+***Ответ:*** ![docker.png](https://github.com/Liberaty/ans_hw_1/blob/main/img/docker.png)
 
 ## Основная часть
 
 1. Попробуйте запустить playbook на окружении из `test.yml`, зафиксируйте значение, которое имеет факт `some_fact` для указанного хоста при выполнении playbook.
+
+***Ответ:*** Готово: ![1.1.png](https://github.com/Liberaty/ans_hw_1/blob/main/img/1.1.png)
+
 2. Найдите файл с переменными (group_vars), в котором задаётся найденное в первом пункте значение, и поменяйте его на `all default fact`.
 3. Воспользуйтесь подготовленным (используется `docker`) или создайте собственное окружение для проведения дальнейших испытаний.
 4. Проведите запуск playbook на окружении из `prod.yml`. Зафиксируйте полученные значения `some_fact` для каждого из `managed host`.
