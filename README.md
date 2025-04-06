@@ -53,6 +53,10 @@ https://github.com/Liberaty/ans_hw_1
 ![1.5.png](https://github.com/Liberaty/ans_hw_1/blob/main/img/1.5.png?raw=true)
 
 6.  Повторите запуск playbook на окружении `prod.yml`. Убедитесь, что выдаются корректные значения для всех хостов.
+
+***Ответ:***
+![1.6.png](https://github.com/Liberaty/ans_hw_1/blob/main/img/1.6.png?raw=true)
+
 7. При помощи `ansible-vault` зашифруйте факты в `group_vars/deb` и `group_vars/el` с паролем `netology`.
 8. Запустите playbook на окружении `prod.yml`. При запуске `ansible` должен запросить у вас пароль. Убедитесь в работоспособности.
 9. Посмотрите при помощи `ansible-doc` список плагинов для подключения. Выберите подходящий для работы на `control node`.
