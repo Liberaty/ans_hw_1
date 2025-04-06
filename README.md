@@ -74,9 +74,22 @@ https://github.com/Liberaty/ans_hw_1
 ![1.9.png](https://github.com/Liberaty/ans_hw_1/blob/main/img/1.9.png?raw=true)
 
 10. В `prod.yml` добавьте новую группу хостов с именем  `local`, в ней разместите localhost с необходимым типом подключения.
+
+***Ответ:***
+![1.10.png](https://github.com/Liberaty/ans_hw_1/blob/main/img/1.10.png?raw=true)
+
 11. Запустите playbook на окружении `prod.yml`. При запуске `ansible` должен запросить у вас пароль. Убедитесь, что факты `some_fact` для каждого из хостов определены из верных `group_vars`.
+
+***Ответ:***
+![1.11.png](https://github.com/Liberaty/ans_hw_1/blob/main/img/1.11.png?raw=true)
+
 12. Заполните `README.md` ответами на вопросы. Сделайте `git push` в ветку `master`. В ответе отправьте ссылку на ваш открытый репозиторий с изменённым `playbook` и заполненным `README.md`.
+
+***Ответ:*** https://github.com/Liberaty/ans_hw_1/tree/main
+
 13. Предоставьте скриншоты результатов запуска команд.
+
+***Ответ:*** все скриншоты добавлены к своим пунктам.
 
 ## Необязательная часть
 
