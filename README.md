@@ -58,7 +58,15 @@ https://github.com/Liberaty/ans_hw_1
 ![1.6.png](https://github.com/Liberaty/ans_hw_1/blob/main/img/1.6.png?raw=true)
 
 7. При помощи `ansible-vault` зашифруйте факты в `group_vars/deb` и `group_vars/el` с паролем `netology`.
+
+***Ответ:***
+![1.7.png](https://github.com/Liberaty/ans_hw_1/blob/main/img/1.7.png?raw=true)
+
 8. Запустите playbook на окружении `prod.yml`. При запуске `ansible` должен запросить у вас пароль. Убедитесь в работоспособности.
+
+***Ответ:***
+![1.8.png](https://github.com/Liberaty/ans_hw_1/blob/main/img/1.8.png?raw=true)
+
 9. Посмотрите при помощи `ansible-doc` список плагинов для подключения. Выберите подходящий для работы на `control node`.
 10. В `prod.yml` добавьте новую группу хостов с именем  `local`, в ней разместите localhost с необходимым типом подключения.
 11. Запустите playbook на окружении `prod.yml`. При запуске `ansible` должен запросить у вас пароль. Убедитесь, что факты `some_fact` для каждого из хостов определены из верных `group_vars`.
