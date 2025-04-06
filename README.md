@@ -43,6 +43,10 @@ https://github.com/Liberaty/ans_hw_1
 ![1.3.png](https://github.com/Liberaty/ans_hw_1/blob/main/img/1.3.png?raw=true)
 
 4. Проведите запуск playbook на окружении из `prod.yml`. Зафиксируйте полученные значения `some_fact` для каждого из `managed host`.
+
+***Ответ:***
+![1.4.png](https://github.com/Liberaty/ans_hw_1/blob/main/img/1.4.png?raw=true)
+
 5. Добавьте факты в `group_vars` каждой из групп хостов так, чтобы для `some_fact` получились значения: для `deb` — `deb default fact`, для `el` — `el default fact`.
 6.  Повторите запуск playbook на окружении `prod.yml`. Убедитесь, что выдаются корректные значения для всех хостов.
 7. При помощи `ansible-vault` зашифруйте факты в `group_vars/deb` и `group_vars/el` с паролем `netology`.
